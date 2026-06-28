@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Models
+*.pt
+
+# Outputs / media
+*.mp4
+samples/*.mp4
+
+# OS
+.DS_Store
+assets/

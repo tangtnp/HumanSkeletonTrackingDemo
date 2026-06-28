@@ -1,0 +1,7 @@
+# Human Skeleton Tracking Demo - dependencies
+# Tested on macOS (Apple Silicon, Python 3.9+)
+
+ultralytics>=8.3.0      # YOLO11-pose model + built-in ByteTrack tracker
+opencv-python>=4.8.0    # video I/O and drawing
+numpy>=1.24.0           # vector math for angles / speed
+lap>=0.5.12             # linear assignment, required by the ByteTrack tracker
